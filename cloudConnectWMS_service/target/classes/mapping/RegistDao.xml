@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd" >
+<mapper namespace="com.hanpeng.dao.RegistDao">
+
+	<!-- 添加注册用户信息(电话号码、密码) -->
+	<insert id="saveUser" parameterType="String" keyProperty="id">
+		insert into admin(admin_username, admin_password) values(#{username},#{password})
+	</insert>
+
+	<!-- 手机号码唯一性校验 -->
+	<select id="validatePhone" parameterType="String" resultType="int">
+		select count(*) from admin where admin_username=#{username}
+	</select>
+
+	<!-- 忘记密码 -->
+	<update id="updatePassword" parameterType="String" keyProperty="id">
+		update admin set admin_password=#{password} where admin_username=#{username}
+	</update>
+	
+</mapper>
