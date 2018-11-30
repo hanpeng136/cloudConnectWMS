@@ -1,0 +1,1471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="cloudConnectWMS_webapp:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c41415b7-5633-4874-9955-b7e40ec93b57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/faceEntry.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/bean/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/bean/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/bean/FaceRecognition.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/bean/FaceRecognition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/common/filter/MyLoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/common/filter/MyLoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/utils/GetToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/utils/GetToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_facade/target/classes/com/hanpeng/bean/FaceRecognition.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_facade/target/classes/com/hanpeng/bean/FaceRecognition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_facade/target/classes/com/hanpeng/common/filter/MyLoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_facade/target/classes/com/hanpeng/common/filter/MyLoginFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_facade/target/classes/com/hanpeng/service/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_facade/target/classes/com/hanpeng/service/LoginService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_facade/target/classes/com/hanpeng/utils/GetToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_facade/target/classes/com/hanpeng/utils/GetToken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_service/src/main/java/com/hanpeng/dao/LoginDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_service/src/main/java/com/hanpeng/dao/LoginDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_service/src/main/java/com/hanpeng/serviceImpl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_service/src/main/java/com/hanpeng/serviceImpl/LoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_service/src/main/resources/mapping/LoginDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_service/src/main/resources/mapping/LoginDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_service/target/classes/com/hanpeng/dao/LoginDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_service/target/classes/com/hanpeng/dao/LoginDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_service/target/classes/com/hanpeng/serviceImpl/LoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_service/target/classes/com/hanpeng/serviceImpl/LoginServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_service/target/classes/mapping/LoginDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_service/target/classes/mapping/LoginDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/java/com/hanpeng/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/java/com/hanpeng/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/faceRecognition.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/faceRecognition.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/classes/com/hanpeng/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/classes/com/hanpeng/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/cloudConnectWMS/WEB-INF/classes/com/hanpeng/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/cloudConnectWMS/WEB-INF/classes/com/hanpeng/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/cloudConnectWMS/WEB-INF/lib/cloudConnectWMS_facade-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/cloudConnectWMS/WEB-INF/lib/cloudConnectWMS_facade-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/cloudConnectWMS/faceRecognition.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/cloudConnectWMS/faceRecognition.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo_provider/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo_consumer/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo_api/target/" />
+    <ignored path="$PROJECT_DIR$/loveMusicSharingPlatform_facade/target/" />
+    <ignored path="$PROJECT_DIR$/loveMusicSharingPlatform_webapp/target/" />
+    <ignored path="$PROJECT_DIR$/loveMusicSharingPlatform_service/target/" />
+    <ignored path="$PROJECT_DIR$/loveMusicSharingPlatform_provider/target/" />
+    <ignored path="$PROJECT_DIR$/cloudConnectWMS_facade/target/" />
+    <ignored path="$PROJECT_DIR$/cloudConnectWMS_provider/target/" />
+    <ignored path="$PROJECT_DIR$/cloudConnectWMS_webapp/target/" />
+    <ignored path="$PROJECT_DIR$/cloudConnectWMS_service/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="298910210">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="9" />
+          <entry key="css" value="1" />
+          <entry key="java" value="144" />
+          <entry key="js" value="6" />
+          <entry key="jsp" value="7" />
+          <entry key="properties" value="10" />
+          <entry key="properties1" value="2" />
+          <entry key="xml" value="111" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="9" />
+          <entry key="CSS" value="1" />
+          <entry key="JAVA" value="144" />
+          <entry key="JSP" value="7" />
+          <entry key="JavaScript" value="6" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="10" />
+          <entry key="XML" value="111" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="402" />
+          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="Properties" value="13" />
+          <entry key="XML" value="849" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="17" />
+          <entry key="java" value="402" />
+          <entry key="properties" value="13" />
+          <entry key="xml" value="849" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1155675067">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.opened" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="6" />
+          <entry key="css" value="22" />
+          <entry key="html" value="2" />
+          <entry key="java" value="69" />
+          <entry key="jpg" value="2" />
+          <entry key="js" value="16" />
+          <entry key="jsp" value="24" />
+          <entry key="png" value="8" />
+          <entry key="xml" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="6" />
+          <entry key="CSS" value="22" />
+          <entry key="HTML" value="2" />
+          <entry key="Image" value="10" />
+          <entry key="JAVA" value="69" />
+          <entry key="JSP" value="24" />
+          <entry key="JavaScript" value="16" />
+          <entry key="XML" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="38" />
+          <entry key="html" value="15" />
+          <entry key="java" value="3648" />
+          <entry key="js" value="133" />
+          <entry key="jsp" value="1363" />
+          <entry key="xml" value="545" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="38" />
+          <entry key="HTML" value="15" />
+          <entry key="JAVA" value="3648" />
+          <entry key="JSP" value="1363" />
+          <entry key="JavaScript" value="133" />
+          <entry key="XML" value="545" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="cloudConnectWMS" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloudConnectWMS_service/src/main/java/com/hanpeng/serviceImpl/LoginServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2714">
+              <caret line="137" column="5" selection-start-line="45" selection-start-column="3" selection-end-line="137" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloudConnectWMS_service/src/main/java/com/hanpeng/dao/LoginDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="25" column="1" selection-start-line="10" selection-end-line="25" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloudConnectWMS_service/src/main/resources/mapping/LoginDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloudConnectWMS_service/src/main/resources/mapping/RegistDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/faceRecognition.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/utils/GetToken.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/faceEntry.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2162">
+              <caret line="94" column="42" selection-end-line="110" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloudConnectWMS_provider/src/main/java/com/jd/service/Provider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/java/com/hanpeng/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1909">
+              <caret line="104" column="5" selection-start-line="64" selection-end-line="104" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/service/LoginService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="9" selection-start-line="9" selection-end-line="28" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hanpeng42</find>
+      <find>option</find>
+      <find>musicList</find>
+      <find>登录</find>
+      <find>loveMusicSharingPlatform</find>
+      <find>注册</find>
+      <find>login_submit</find>
+      <find>msgtemp</find>
+      <find>validateUser</find>
+      <find>media</find>
+      <find>.js</find>
+      <find>sentCode</find>
+      <find>username</find>
+      <find>tel</find>
+      <find>登录会员中心</find>
+      <find>爱购</find>
+      <find>忘记</find>
+      <find>#65CEA7</find>
+      <find>#65cea7</find>
+      <find>23</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>cloudConnectWMS</replace>
+      <replace>#5AB5DE</replace>
+      <replace>进入管理系统</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/loveMusicSharingPlatform_webapp/src/main/java/com/hanpeng/controller/RegistController.java" />
+        <option value="$PROJECT_DIR$/loveMusicSharingPlatform_provider/src/main/resources/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/loveMusicSharingPlatform_facade/src/main/java/com/hanpeng/entity/Dynamic.java" />
+        <option value="$PROJECT_DIR$/loveMusicSharingPlatform_facade/src/main/java/com/hanpeng/entity/Friend.java" />
+        <option value="$PROJECT_DIR$/loveMusicSharingPlatform_facade/src/main/java/com/hanpeng/entity/Revert.java" />
+        <option value="$PROJECT_DIR$/loveMusicSharingPlatform_facade/src/main/java/com/hanpeng/entity/Review.java" />
+        <option value="$PROJECT_DIR$/loveMusicSharingPlatform_webapp/src/main/java/com/hanpeng/controller/RecommendedSongsController.java" />
+        <option value="$PROJECT_DIR$/loveMusicSharingPlatform_service/src/main/java/com/hanpeng/serviceImpl/RecommendedSongsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_webapp/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_service/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_provider/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_facade/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/source/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/bottom.jsp" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/entity/Admin.java" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/source/faceRecognition/css/style.css" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/common/GetTon.java" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/common/GetToken.java" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/common/GsonUtils.java" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/utils/GsonUtils.java" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/source/faceRecognition/js/faceRecognition.js" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_provider/src/main/resources/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_provider/src/main/resources/spring-publish.xml" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/resources/consumer.xml" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/utils/HttpUtil.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/utils/FileUtil.java" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/utils/Base64Util.java" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/service/RegistService.java" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_service/src/main/java/com/hanpeng/serviceImpl/RegistServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_service/src/main/java/com/hanpeng/dao/RegistDao.java" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_service/src/main/resources/mapping/RegistDao.xml" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/java/com/hanpeng/controller/RegistController.java" />
+        <option value="$PROJECT_DIR$/loveMusicSharingPlatform_webapp/target/loveMusicSharingPlatform/source/js/login.js" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/source/js/login.js" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/css/style.css" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/bean/Admin.java" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/utils/GetToken.java" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/common/filter/MyLoginFilter.java" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/bean/FaceRecognition.java" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_service/src/main/java/com/hanpeng/dao/LoginDao.java" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_service/src/main/resources/mapping/LoginDao.xml" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_service/src/main/java/com/hanpeng/serviceImpl/LoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/java/com/hanpeng/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/faceEntry.jsp" />
+        <option value="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/faceRecognition.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\tool\maven\localRepository" />
+        <option name="mavenHome" value="E:/tool/apache-maven-3.3.9-bin" />
+        <option name="userSettingsFile" value="E:\tool\apache-maven-3.3.9-bin\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="loveMusicSharingPlatform" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="loveMusicSharingPlatform" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="loveMusicSharingPlatform_facade" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="loveMusicSharingPlatform_webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="loveMusicSharingPlatform_webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="951" />
+    <option name="y" value="12" />
+    <option name="width" value="1116" />
+    <option name="height" value="1071" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_facade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_facade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_facade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_facade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_facade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hanpeng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_facade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hanpeng" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_facade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hanpeng" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_facade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hanpeng" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_facade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hanpeng" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hanpeng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hanpeng" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hanpeng" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceImpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudConnectWMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudConnectWMS" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudConnectWMS_webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/ideaProject/cloudConnectWMS/cloudConnectWMS_webapp/src/main/webapp/login.jsp" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543484372315" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.26436782" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\cloudConnectWMS\cloudConnectWMS_webapp\src\main\webapp" />
+      <recent name="D:\ideaProject\cloudConnectWMS\cloudConnectWMS_webapp\src\main\webapp\source\images" />
+      <recent name="D:\ideaProject\cloudConnectWMS\cloudConnectWMS_facade\src\main\java\com\hanpeng\utils" />
+      <recent name="D:\ideaProject\cloudConnectWMS\cloudConnectWMS_facade\src\main\java\com\hanpeng\common" />
+      <recent name="D:\ideaProject\cloudConnectWMS\cloudConnectWMS_webapp\src\main\webapp\source\faceRecognition" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hanpeng.common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hanpeng42\IdeaProjects\loveMusicSharingPlatform\loveMusicSharingPlatform_webapp\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\hanpeng42\IdeaProjects\loveMusicSharingPlatform\loveMusicSharingPlatform_service\src\main\resources" />
+      <recent name="C:\Users\hanpeng42\IdeaProjects\loveMusicSharingPlatform\dubbo_provider\src\main\resources" />
+      <recent name="C:\Users\hanpeng42\IdeaProjects\loveMusicSharingPlatform\dubbo_provider\src\main\resources\mapping" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat">
+    <configuration name="GetToken" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hanpeng.utils.GetToken" />
+      <module name="cloudConnectWMS_facade" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hanpeng.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.jd.service.Provider" />
+      <module name="cloudConnectWMS_provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jd.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="faceRecognition.do" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/faceRecognition.do">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.do" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/index.do">
+      <method v="2" />
+    </configuration>
+    <configuration name="login.do" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/login.do">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="cloudConnectWMS_facade" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="cloudConnectWMS_facade" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat " ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="cloudConnectWMS_webapp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_loveMusicSharingPlatform" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63054" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="cloudConnectWMS_webapp:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Provider" />
+      <item itemvalue="Tomcat Server.tomcat" />
+      <item itemvalue="Application.GetToken" />
+      <item itemvalue="JavaScript Debug.faceRecognition.do" />
+      <item itemvalue="JavaScript Debug.login.do" />
+      <item itemvalue="JavaScript Debug.index.do" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.faceRecognition.do" />
+        <item itemvalue="Application.GetToken" />
+        <item itemvalue="JavaScript Debug.index.do" />
+        <item itemvalue="JavaScript Debug.login.do" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c41415b7-5633-4874-9955-b7e40ec93b57" name="Default Changelist" comment="" />
+      <created>1542177558948</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542177558948</updated>
+      <workItem from="1542177560405" duration="3362000" />
+      <workItem from="1542181611439" duration="142000" />
+      <workItem from="1542181774060" duration="13000" />
+      <workItem from="1542181923705" duration="365000" />
+      <workItem from="1542182304497" duration="66000" />
+      <workItem from="1542182483593" duration="282000" />
+      <workItem from="1542182953262" duration="15158000" />
+      <workItem from="1542244188227" duration="1043000" />
+      <workItem from="1542245247710" duration="23014000" />
+      <workItem from="1542286347240" duration="2395000" />
+      <workItem from="1542329691574" duration="9416000" />
+      <workItem from="1542357663783" duration="2534000" />
+      <workItem from="1542360289340" duration="4916000" />
+      <workItem from="1542449303894" duration="8715000" />
+      <workItem from="1542517120641" duration="1502000" />
+      <workItem from="1542590560611" duration="4018000" />
+      <workItem from="1542704243944" duration="1678000" />
+      <workItem from="1542720161457" duration="864000" />
+      <workItem from="1542723383075" duration="1183000" />
+      <workItem from="1542763401021" duration="2838000" />
+      <workItem from="1542793459279" duration="2951000" />
+      <workItem from="1543128068858" duration="1042000" />
+      <workItem from="1543136135763" duration="4512000" />
+      <workItem from="1543194779840" duration="1026000" />
+      <workItem from="1543198095478" duration="21492000" />
+      <workItem from="1543281668501" duration="30400000" />
+      <workItem from="1543368345304" duration="10491000" />
+      <workItem from="1543454493240" duration="20686000" />
+      <workItem from="1543496389418" duration="1580000" />
+      <workItem from="1543546148077" duration="2092000" />
+      <workItem from="1543553728289" duration="750000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="180526000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.41099477" visible="true" weight="0.17299919" />
+      <window_info id="Structure" order="1" sideWeight="0.7294118" side_tool="true" weight="0.27324173" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.384375" side_tool="true" weight="0.27324173" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.58900523" side_tool="true" weight="0.2926435" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8593371" weight="0.19182949" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44937834" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4130962" side_tool="true" weight="0.30550623" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3285968" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.5869038" weight="0.42628774" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32149202" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.17461601" />
+      <window_info anchor="right" id="Database" order="6" weight="0.027485853" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.41099477" visible="true" weight="0.2926435" />
+      <window_info id="Structure" order="1" sideWeight="0.7294118" side_tool="true" weight="0.27324173" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.384375" side_tool="true" weight="0.27324173" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.58900523" side_tool="true" weight="0.2926435" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8593371" visible="true" weight="0.330373" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23090586" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4130962" side_tool="true" weight="0.30550623" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3285968" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.5869038" weight="0.42628774" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32149202" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.17461601" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.027485853" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="1148" selection-start-line="1148" selection-end-line="1148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/source/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-824">
+          <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/source/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="2961" column="1" selection-start-line="2961" selection-start-column="1" selection-end-line="2961" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/source/faceRecognition/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/utils/MD5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1446">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/source/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/source/js/verificationNumbers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/source/faceRecognition/js/faceRecognition.js" />
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/resources/consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_provider/src/main/resources/spring-publish.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/utils/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/tool/maven/localRepository/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar!/net/sf/json/util/JSONTokener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="359" selection-start-line="359" selection-end-line="359" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/utils/GsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/utils/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/source/js/Particleground.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="33" column="4668" selection-start-line="33" selection-start-column="4668" selection-end-line="33" selection-end-column="4668" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/tool/maven/localRepository/org/springframework/spring-web/4.1.0.RELEASE/spring-web-4.1.0.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_provider/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-233">
+          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/service/RegistService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_service/src/main/java/com/hanpeng/dao/RegistDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="99" selection-start-line="10" selection-start-column="99" selection-end-line="10" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loveMusicSharingPlatform_webapp/target/loveMusicSharingPlatform/source/js/login.js" />
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/java/com/hanpeng/controller/RegistController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2670">
+          <caret line="80" column="52" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/source/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="125" column="39" selection-start-line="125" selection-start-column="39" selection-end-line="125" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/success.jsp" />
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/bin/index.html" />
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/js/fuelux/js/tree.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/index.html" />
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1825">
+          <caret line="225" column="61" selection-start-line="225" selection-start-column="61" selection-end-line="225" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/images/logo_icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/images/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="378" column="29" lean-forward="true" selection-start-line="378" selection-start-column="29" selection-end-line="378" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="41" column="72" selection-start-line="41" selection-start-column="72" selection-end-line="41" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/bean/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/utils/Base64Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-858">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/utils/Base64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_service/src/main/java/com/hanpeng/serviceImpl/RegistServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/common/filter/MyLoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/bean/FaceRecognition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_service/src/main/java/com/hanpeng/serviceImpl/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2714">
+          <caret line="137" column="5" selection-start-line="45" selection-start-column="3" selection-end-line="137" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_service/src/main/java/com/hanpeng/dao/LoginDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" column="1" selection-start-line="10" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_service/src/main/resources/mapping/RegistDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/faceRecognition.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/utils/GetToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/webapp/faceEntry.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2162">
+          <caret line="94" column="42" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_provider/src/main/java/com/jd/service/Provider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/java/com/hanpeng/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1909">
+          <caret line="104" column="5" selection-start-line="64" selection-end-line="104" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" selection-start-line="9" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_service/src/main/resources/mapping/LoginDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>cloudConnectWMS_webapp:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26436782" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26436782" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cloudConnectWMS</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26436782" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:dubbo:2.5.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

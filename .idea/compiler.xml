@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloudConnectWMS_facade" />
+        <module name="cloudConnectWMS_provider" />
+        <module name="cloudConnectWMS_service" />
+        <module name="cloudConnectWMS_webapp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dubbo_api" target="1.7" />
+      <module name="dubbo_consumer" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
