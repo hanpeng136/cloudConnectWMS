@@ -41,9 +41,4 @@ public class GetToken {
 		String token = jsonObject.getString("access_token");
 		return token;
 	}
-
-	public static void main(String[] args) {
-		String tonken = getToken();
-		System.out.println(tonken);
-	}
 }

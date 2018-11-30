@@ -10,6 +10,14 @@
 	<select id="getBaseList" resultType="com.hanpeng.bean.FaceRecognition">
 		select * from face_Recognition
 	</select>
+	<!--新增人脸数据-->
+	<insert id="insertFaceInfo" parameterType="com.hanpeng.bean.FaceRecognition">
+		insert into face_Recognition(face_base64,username) values(#{face_base64},#{username})
+	</insert>
+	<!--检测该用户的人脸信息数据是否大于N-->
+	<select id="queryCountByFaceInfo" parameterType="String" resultType="int">
+		select count(*) from face_Recognition where username=#{username}
+	</select>
 	<!-- 按照用户名查询用户信息，返回Map -->
 	<select id="queryUserInfo" parameterType="String" resultType="Map">
 		select * from user where username=#{userName}

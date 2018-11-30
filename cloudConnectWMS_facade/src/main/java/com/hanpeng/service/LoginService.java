@@ -15,6 +15,12 @@ public interface LoginService {
 
     public boolean getResult(String image1, String image2) throws IOException;
 
+    public boolean getFaceResult(String image) throws IOException;
+
+    public void insertFaceInfo(FaceRecognition faceRecognition);
+
+    public boolean queryCountByFaceInfo(String username, int n);
+
     public List<Map<String, ?>> userInfo(String userName);
 
     public void upDate(String date, String userName);

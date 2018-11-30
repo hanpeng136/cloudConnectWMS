@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * @program: cloudConnectWMS
- * @description: 管理员持久类
+ * @description: 管理员
  * @author: by hanpeng
  * @create: 2018-11-26 17:25
  **/

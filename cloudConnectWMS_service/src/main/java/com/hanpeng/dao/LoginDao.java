@@ -13,9 +13,14 @@ public interface LoginDao {
 
 	List<FaceRecognition> getBaseList();
 
+	void insertFaceInfo(FaceRecognition faceRecognition);
+
+	int queryCountByFaceInfo(@Param("username") String username);
+
 	List<Map<String, ?>> queryUserInfo(@Param("userName") String userName);
 
 	void upDate(@Param("date") String date, @Param("userName") String userName);
 
 	void modifyPassWord(@Param("userName") String userName, @Param("passWord") String passWord);
+
 }

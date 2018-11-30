@@ -16,6 +16,11 @@ public class FaceRecognition implements Serializable {
     public FaceRecognition() {
     }
 
+    public FaceRecognition(String username, String face_base64) {
+        this.username = username;
+        this.face_base64 = face_base64;
+    }
+
     public Integer getId() {
         return id;
     }

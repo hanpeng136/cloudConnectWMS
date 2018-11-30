@@ -52,10 +52,11 @@
             <video id="video" width="530" height="300" autoplay></video>
             <canvas id="canvas" width="400" height="300"></canvas>
         </div>
-        <dd style="margin-top:20px;">
-            <input type="button" onclick="query()" value="立即登录"
-                   class="submit_btn"/>
-        </dd>
+        <%--<dd style="margin-top:20px;" >--%>
+            <%--<input type="button" onclick="query()" value="立即登录"--%>
+                   <%--class="submit_btn"/>--%>
+        <%--</dd>--%>
+
 
     </dl>
 </form>
@@ -71,12 +72,12 @@
         }
     };
     //获取用户媒体对象
-    navigator.mediaDevices.getUserMedia(con)
-        .then(function (stream) {
+    navigator.mediaDevices.getUserMedia(con).then(function (stream) {
             video.src = window.URL.createObjectURL(stream);
             video.onloadmetadate = function (e) {
                 video.play();
             }
+            setTimeout(query,1000);
         });
 
     function query() {
@@ -96,6 +97,7 @@
                     window.location.href="index.jsp";
                 } else {
                     alert("面容识别失败,请继续验证");
+                    window.location.href="faceRecognition.jsp";
                 }
             }
         });

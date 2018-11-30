@@ -12,7 +12,6 @@ import com.hanpeng.service.LoginService;
 import com.hanpeng.utils.GetToken;
 import com.hanpeng.utils.GsonUtils;
 import com.hanpeng.utils.HttpUtil;
-import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -33,7 +32,6 @@ public class LoginServiceImpl implements LoginService {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        System.out.println("password:" + password);
         return dao.queryByNameAndPassword(username, password);
     }
 
@@ -51,13 +49,7 @@ public class LoginServiceImpl implements LoginService {
         boolean flag = false;
         // 请求url
         String url = "https://aip.baidubce.com/rest/2.0/face/v3/match";
-//		byte[] bytes1 = FileUtil.readFileByBytes("C:/Users/hanpeng42/Desktop/爱唱音乐共享平台/IMG_20181115_191540 (2).jpg");
-//		byte[] bytes2 = FileUtil.readFileByBytes("C:/Users/hanpeng42/Desktop/1536975445658.jpg");
-//		String image1 = Base64Util.encode(bytes1);
-//		String image2 = Base64Util.encode(bytes2);
-//
-//		System.out.println(image1);
-//		System.out.println(image2);
+
         try {
             List<Map<String, Object>> images = new ArrayList<>();
             Map<String, Object> map1 = new HashMap<>();
@@ -84,31 +76,65 @@ public class LoginServiceImpl implements LoginService {
 
             String result = HttpUtil.post(url, accessToken, "application/json", param);
             System.out.println(result);
+
             //用json提取result中的有效数据
-//			JSONObject fromObject = JSONObject.fromObject(result);
-////			JSONArray jsonArray = fromObject.getJSONArray("result");
-//			JSONArray json = JSONArray.fromObject(fromObject);
-//			JSONObject object = (JSONObject) json.get(0);
-//			System.out.println(object.getString("result"));
-//			for (int i = 0; i < jsonArray.size(); i++) {
-//				JSONObject object = (JSONObject) jsonArray.get(i);
-//				double resultList = object.getDouble("score");
-//				if (resultList >= 90) {
-//					flag = true;
-//				}
-//			}
             JSONObject myJson = new JSONObject(result);
-            JSONObject resultList = (JSONObject) myJson.get("result");
-            double score = resultList.getDouble("score");
-            System.out.println(score);
-            if (score >= 90) {
+            int error = myJson.getInt("error_code");
+            if (error == 0) {
+                JSONObject resultList = (JSONObject) myJson.get("result");
+                double score = resultList.getDouble("score");
+                System.out.println(score);
+                if (score >= 90) {
+                    flag = true;
+                }
+            }
+                return flag;
+            } catch(Exception e){
+                e.printStackTrace();
+            }
+        return flag;
+    }
+
+    //人脸信息录入
+    @Override
+    public boolean getFaceResult(String image) throws IOException {
+        boolean flag = false;
+        // 请求url
+        String url = "https://aip.baidubce.com/rest/2.0/face/v3/detect";
+        try {
+            Map<String, Object> map = new HashMap<>();
+            map.put("image", image);
+            map.put("face_field", "faceshape,facetype");
+            map.put("image_type", "BASE64");
+
+            String param = GsonUtils.toJson(map);
+            String accessToken = GetToken.getToken();
+            String result = HttpUtil.post(url, accessToken, "application/json", param);
+            JSONObject myJson = new JSONObject(result);
+            int error = myJson.getInt("error_code");
+            if(error==0){
                 flag = true;
             }
-            return flag;
         } catch (Exception e) {
             e.printStackTrace();
         }
         return flag;
+    }
+
+
+    //新增人脸数据
+    @Override
+    public void insertFaceInfo(FaceRecognition faceRecognition) {
+        dao.insertFaceInfo(faceRecognition);
+    }
+
+    //检测该用户的人脸信息数据是否大于N
+    @Override
+    public boolean queryCountByFaceInfo(String username,int n) {
+        if(dao.queryCountByFaceInfo(username)<=4){
+            return true;
+        }
+        return false;
     }
 
     public List<Map<String, ?>> userInfo(String userName) {

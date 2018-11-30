@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title>管理员登录</title>
+    <title>人脸信息录入</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="pragma" content="no-cache">
     <meta http-equiv="cache-control" content="no-cache">
@@ -46,17 +46,12 @@
 <form action="" method="post" style="margin-top:100px;">
     <dl class="admin_login">
         <dt>
-            <strong>云通WMS</strong><strong style="margin-top:10px;">请将脸放摄像头前</strong>
+            <strong>信息录入</strong><strong style="margin-top:10px;">请将脸放摄像头前</strong>
         </dt>
         <div id="media">
             <video id="video" width="530" height="300" autoplay></video>
             <canvas id="canvas" width="400" height="300"></canvas>
         </div>
-        <%--<dd style="margin-top:20px;" >--%>
-            <%--<input type="button" onclick="query()" value="立即登录"--%>
-                   <%--class="submit_btn"/>--%>
-        <%--</dd>--%>
-
 
     </dl>
 </form>
@@ -72,7 +67,8 @@
         }
     };
     //获取用户媒体对象
-    navigator.mediaDevices.getUserMedia(con).then(function (stream) {
+    navigator.mediaDevices.getUserMedia(con)
+        .then(function (stream) {
             video.src = window.URL.createObjectURL(stream);
             video.onloadmetadate = function (e) {
                 video.play();
@@ -86,18 +82,19 @@
         var baseData = getBase64();
         $.ajax({
             type: "post",
-            url: "faceRecognition.do",
+            url: "faceEntry.do",
             async:true,
             contentType:"application/x-www-form-urlencoded",
-            data: {"baseData": baseData},
+            data: {"faceData": baseData},
             dataType:'json',
-            success: function (data) {
-                var result = eval(data);
-                if (result) {
+            success: function (json, textStatus) {
+                var result = json.flag;
+                if (result==0) {
+                   alert("您的人脸录入数据已达上限")
+                } else if(result==2){
+                    alert("信息录入失败，请重新录入");
+                }else{
                     window.location.href="index.jsp";
-                } else {
-                    alert("面容识别失败,请继续验证");
-                    window.location.href="faceRecognition.jsp";
                 }
             }
         });
