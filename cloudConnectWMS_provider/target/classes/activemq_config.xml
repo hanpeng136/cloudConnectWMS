@@ -21,12 +21,19 @@
     <!-- Spring提供的JMS工具类，它可以进行消息发送、接收等 -->
     <bean id="internalJmsTemplate" class="org.springframework.jms.core.JmsTemplate">
         <property name="connectionFactory" ref="internalConnectionFactory" />
+        <property name="pubSubDomain" value="true"/>
     </bean>
 
-    <!-- 推送给用户信息  创建一个Queue-->
+    <!-- 推送给用户信息  点对点-->
     <bean id="adminServiceQueue" class="org.apache.activemq.command.ActiveMQQueue">
         <constructor-arg>
             <value>adminQueue</value>
+        </constructor-arg>
+    </bean>
+    <!--订阅模式，一对多-->
+    <bean id="adminServiceTopic" class="org.apache.activemq.command.ActiveMQTopic">
+        <constructor-arg>
+            <value>adminTopic</value>
         </constructor-arg>
     </bean>
 
