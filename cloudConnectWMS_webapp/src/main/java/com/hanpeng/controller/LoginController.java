@@ -1,38 +1,37 @@
 package com.hanpeng.controller;
 
 import java.io.*;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.net.URLEncoder;
 import java.util.*;
 
 import javax.annotation.Resource;
-import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import com.hanpeng.bean.Admin;
 import com.hanpeng.bean.FaceRecognition;
-import com.hanpeng.utils.*;
+import com.hanpeng.bean.ResultRespone;
+import com.hanpeng.service.PushService;
 import com.hanpeng.service.LoginService;
-import net.sf.json.JSONArray;
-import net.sf.json.JSONObject;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 
 @Controller
-@SessionAttributes(value = {"userInfo", "menus"})
 public class LoginController {
 
     @Resource
     private LoginService service;
 
+    @Resource
+    private PushService adminPushService;
+
     //百度人脸识别Token
     private static String accessToken;
+
 
 
     //登录验证
@@ -65,7 +64,6 @@ public class LoginController {
     //百度人脸识别登录验证
     @RequestMapping("faceRecognition")
     void faceRecognition(HttpServletRequest request, HttpServletResponse response, String baseData) throws IOException {
-        System.out.println(baseData);
         PrintWriter writer = response.getWriter();
         HttpSession session = request.getSession();
         boolean flag = false;
@@ -102,6 +100,20 @@ public class LoginController {
             writer.write("{\"flag\":\"0\"}");
         }
         writer.close();
+    }
+
+    //推送消息
+    @RequestMapping("userPush")
+    public ResultRespone userPush(Admin info){
+        ResultRespone respone = new ResultRespone();
+        try {
+            adminPushService.push(info);
+            respone.setData(info);
+        } catch (Exception e) {
+            e.printStackTrace();
+            respone = new ResultRespone(false, e.getMessage());
+        }
+        return respone;
     }
 
     // 获取用户信息

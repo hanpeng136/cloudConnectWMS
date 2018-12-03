@@ -7,6 +7,7 @@
        http://code.alibabatech.com/schema/dubbo
        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
     <import resource="classpath:spring-mybatis.xml"></import>
+    <import resource="classpath:activemq_config.xml"></import>
     <!--定义了提供方应用信息，用于计算依赖关系；在 dubbo-admin 或 dubbo-monitor 会显示这个名字，方便辨识-->
     <dubbo:application name="demotest-provider" owner="programmer" organization="dubbox"/>
     <!--使用 zookeeper 注册中心暴露服务，注意要先开启 zookeeper-->
@@ -22,5 +23,9 @@
     <!--用户注册-->
     <dubbo:service interface="com.hanpeng.service.RegistService" ref="registService" protocol="dubbo"/>
     <bean id="registService" class="com.hanpeng.serviceImpl.RegistServiceImpl"/>
+
+    <!--消息推送-->
+    <dubbo:service interface="com.hanpeng.service.PushService" ref="adminPushService" protocol="dubbo"/>
+    <bean id="adminPushService" class="com.hanpeng.serviceImpl.AdminPushServiceImpl"/>
 
 </beans>

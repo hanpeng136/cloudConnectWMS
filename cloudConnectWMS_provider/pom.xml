@@ -24,23 +24,19 @@
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.11</version>
-            <scope>test</scope>
+            <groupId>com.hanpeng</groupId>
+            <artifactId>cloudConnectWMS_webapp</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
-        <dependency>
-        <groupId>com.hanpeng</groupId>
-        <artifactId>cloudConnectWMS_webapp</artifactId>
-        <version>1.0-SNAPSHOT</version>
-        <scope>compile</scope>
-    </dependency>
+
         <dependency>
             <groupId>com.hanpeng</groupId>
             <artifactId>cloudConnectWMS_service</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
+
         <dependency>
             <groupId>com.hanpeng</groupId>
             <artifactId>cloudConnectWMS</artifactId>

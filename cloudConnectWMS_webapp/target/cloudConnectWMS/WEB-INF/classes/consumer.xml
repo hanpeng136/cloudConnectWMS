@@ -11,4 +11,5 @@
     <!--使用 dubbo 协议调用定义好的 api.PermissionService 接口-->
     <dubbo:reference id="loginService" interface="com.hanpeng.service.LoginService" timeout="3000"/>
     <dubbo:reference id="registService" interface="com.hanpeng.service.RegistService" timeout="3000"/>
+    <dubbo:reference id="adminPushService" interface="com.hanpeng.service.PushService" timeout="3000"/>
 </beans>

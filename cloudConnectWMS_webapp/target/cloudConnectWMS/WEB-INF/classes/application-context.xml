@@ -12,7 +12,7 @@
 	<import resource="consumer.xml"/>
 	<!-- <import resource="spring-quartz.xml" /> -->
 
-	 <!--将多个配置文件读取到容器中，交给Spring管理 -->
+	 <!--将多个配置文件读取到容器中，交给Spring管理-->
 	<bean id="propertyConfigurer"
 		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 		<property name="locations">

@@ -12,6 +12,7 @@ import com.hanpeng.dao.RegistDao;
 
 @Service
 public class RegistServiceImpl implements RegistService {
+
 	@Autowired
 	RegistDao dao;
 
