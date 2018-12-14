@@ -62,6 +62,7 @@
         <property name="dataSource" ref="dataSource" />  
         <!-- 自动扫描mapping.xml文件 -->  
         <property name="mapperLocations" value="classpath*:mapping/**/*.xml"></property>
+		<property name="configLocation" value="mybatis-config.xml"></property>
 		<!--pageHelper-->
 		<property name="plugins">
 			<array>

@@ -8,6 +8,8 @@ import com.hanpeng.utils.GsonUtils;
 import com.hanpeng.utils.HttpUtil;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
@@ -26,9 +28,12 @@ import java.util.Map;
 public class FaceRecognitionServiceImpl implements FaceRecognitionService {
     @Autowired
     FaceRecognitionDao dao;
+
     //人脸识别数据获取
     @Override
+    @Cacheable("getBaseList")
     public List<FaceRecognition> getBaseList() {
+        System.out.println("第一次查数据库");
         List<FaceRecognition> list = new ArrayList<FaceRecognition>();
         list = dao.getBaseList();
         return list;
@@ -86,7 +91,7 @@ public class FaceRecognitionServiceImpl implements FaceRecognitionService {
         return flag;
     }
 
-    //人脸信息录入
+    //人脸信息有效性检测
     @Override
     public boolean getFaceResult(String image) throws IOException {
         boolean flag = false;
@@ -115,12 +120,15 @@ public class FaceRecognitionServiceImpl implements FaceRecognitionService {
 
     //新增人脸数据
     @Override
+    //清空缓存，allEntries变量表示所有对象的缓存都清除
+    @CacheEvict(value= {"getBaseList","queryCountByFaceInfo"},allEntries=true)
     public void insertFaceInfo(FaceRecognition faceRecognition) {
         dao.insertFaceInfo(faceRecognition);
     }
 
     //检测该用户的人脸信息数据是否大于N
     @Override
+    @Cacheable("queryCountByFaceInfo")
     public boolean queryCountByFaceInfo(String username,int n) {
         if(dao.queryCountByFaceInfo(username)<=4){
             return true;

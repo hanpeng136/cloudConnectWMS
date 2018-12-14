@@ -2,6 +2,7 @@ package com.hanpeng.controller;
 
 import java.io.*;
 import java.util.*;
+import java.util.logging.Logger;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
@@ -21,6 +22,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class LoginController {
+    private static Logger logger = Logger.getLogger("LoginController.class");
 
     @Resource
     private LoginService service;
