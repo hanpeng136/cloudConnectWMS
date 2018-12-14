@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd" >
+<mapper namespace="com.hanpeng.dao.FaceRecognitionDao">
+
+    <resultMap id="BaseResultMap" type="com.hanpeng.bean.FaceRecognition">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="face_base64" property="face_base64" jdbcType="VARCHAR"/>
+        <result column="username" property="username" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,face_base64,username
+    </sql>
+
+    <!--查询人脸识别本地库中的数据-->
+    <select id="getBaseList" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from face_Recognition
+    </select>
+    <!--新增人脸数据-->
+    <insert id="insertFaceInfo" parameterType="com.hanpeng.bean.FaceRecognition">
+        insert into face_Recognition(face_base64,username) values(#{face_base64},#{username})
+    </insert>
+    <!--检测该用户的人脸信息数据是否大于N-->
+    <select id="queryCountByFaceInfo" parameterType="String" resultType="int">
+        select count(*) from face_Recognition where username=#{username}
+    </select>
+
+</mapper>

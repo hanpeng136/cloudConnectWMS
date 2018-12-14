@@ -6,30 +6,24 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c41415b7-5633-4874-9955-b7e40ec93b57" name="Default Changelist" comment="ActiveMQ配置">
+    <list default="true" id="c41415b7-5633-4874-9955-b7e40ec93b57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/service/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_facade/target/classes/com/hanpeng/bean/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_facade/target/classes/com/hanpeng/bean/Admin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloudConnectWMS_facade/target/classes/com/hanpeng/service/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_facade/target/classes/com/hanpeng/service/LoginService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_provider/src/main/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_provider/src/main/resources/database.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_provider/src/main/resources/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_provider/src/main/resources/spring-mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_provider/src/main/resources/spring-publish.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_provider/src/main/resources/spring-publish.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_provider/target/classes/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_provider/target/classes/database.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloudConnectWMS_provider/target/classes/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_provider/target/classes/spring-mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_service/src/main/java/com/hanpeng/dao/LoginDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_service/src/main/java/com/hanpeng/dao/LoginDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_service/src/main/java/com/hanpeng/serviceImpl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_service/src/main/java/com/hanpeng/serviceImpl/LoginServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_service/src/main/resources/mapping/LoginDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_service/src/main/resources/mapping/LoginDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_provider/target/classes/spring-publish.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_provider/target/classes/spring-publish.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloudConnectWMS_service/target/classes/com/hanpeng/dao/LoginDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_service/target/classes/com/hanpeng/dao/LoginDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloudConnectWMS_service/target/classes/com/hanpeng/serviceImpl/LoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_service/target/classes/com/hanpeng/serviceImpl/LoginServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloudConnectWMS_service/target/classes/mapping/LoginDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_service/target/classes/mapping/LoginDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/java/com/hanpeng/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/java/com/hanpeng/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/resources/application-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/resources/application-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/resources/consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/resources/consumer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/resources/database.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/classes/application-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/classes/application-context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/classes/com/hanpeng/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/classes/com/hanpeng/controller/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/classes/com/hanpeng/listener/AdminPushListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/classes/com/hanpeng/listener/AdminPushListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/classes/database.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/classes/consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/classes/consumer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/cloudConnectWMS/WEB-INF/classes/application-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/cloudConnectWMS/WEB-INF/classes/application-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/cloudConnectWMS/WEB-INF/classes/com/hanpeng/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/cloudConnectWMS/WEB-INF/classes/com/hanpeng/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/cloudConnectWMS/WEB-INF/classes/com/hanpeng/listener/AdminPushListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/cloudConnectWMS/WEB-INF/classes/com/hanpeng/listener/AdminPushListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/cloudConnectWMS/WEB-INF/classes/consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/cloudConnectWMS/WEB-INF/classes/consumer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/cloudConnectWMS/WEB-INF/lib/cloudConnectWMS_facade-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloudConnectWMS_webapp/target/cloudConnectWMS/WEB-INF/lib/cloudConnectWMS_facade-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/dubbo_provider/target/" />
@@ -151,13 +145,13 @@
           <entry key="class" value="12" />
           <entry key="css" value="22" />
           <entry key="html" value="2" />
-          <entry key="java" value="146" />
+          <entry key="java" value="147" />
           <entry key="jpg" value="2" />
           <entry key="js" value="17" />
           <entry key="jsp" value="27" />
           <entry key="png" value="8" />
           <entry key="properties" value="5" />
-          <entry key="xml" value="98" />
+          <entry key="xml" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -166,11 +160,11 @@
           <entry key="CSS" value="22" />
           <entry key="HTML" value="2" />
           <entry key="Image" value="10" />
-          <entry key="JAVA" value="146" />
+          <entry key="JAVA" value="147" />
           <entry key="JSP" value="27" />
           <entry key="JavaScript" value="17" />
           <entry key="Properties" value="5" />
-          <entry key="XML" value="98" />
+          <entry key="XML" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -182,7 +176,7 @@
           <entry key="js" value="133" />
           <entry key="jsp" value="1380" />
           <entry key="properties" value="15" />
-          <entry key="txt" value="13" />
+          <entry key="txt" value="19" />
           <entry key="xml" value="1920" />
         </counts>
       </usages-collector>
@@ -193,7 +187,7 @@
           <entry key="JAVA" value="4243" />
           <entry key="JSP" value="1380" />
           <entry key="JavaScript" value="133" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="PLAIN_TEXT" value="25" />
           <entry key="Properties" value="15" />
           <entry key="XML" value="1920" />
         </counts>
@@ -223,11 +217,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/bean/Admin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="70" column="30" lean-forward="true" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+            <state relative-caret-position="492">
+              <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/bean/ResultRespone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-533">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloudConnectWMS_service/src/main/resources/mapping/RegistDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -740,7 +752,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/ideaProject/cloudConnectWMS/cloudConnectWMS_webapp/src/main/webapp/login.jsp" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544771194461" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544771302483" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SSMRedis-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -981,7 +993,7 @@
       <workItem from="1544149122663" duration="6943000" />
       <workItem from="1544580420821" duration="1009000" />
       <workItem from="1544686932463" duration="5082000" />
-      <workItem from="1544755947542" duration="10779000" />
+      <workItem from="1544755947542" duration="11023000" />
     </task>
     <task id="LOCAL-00001" summary="ActiveMQ配置">
       <created>1543815911338</created>
@@ -990,11 +1002,25 @@
       <option name="project" value="LOCAL" />
       <updated>1543815911338</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="redis">
+      <created>1544771221536</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544771221536</updated>
+    </task>
+    <task id="LOCAL-00003" summary="redis">
+      <created>1544771269350</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544771269350</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232303000" />
+    <option name="totallyTimeSpent" value="232547000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1084,7 +1110,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ActiveMQ配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="ActiveMQ配置" />
+    <MESSAGE value="redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://E:/tool/maven/localRepository/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0.jar!/org/apache/activemq/ActiveMQConnection.class">
@@ -1214,13 +1241,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/bean/ResultRespone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloudConnectWMS_webapp/src/main/java/com/hanpeng/listener/AdminPushListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-148">
@@ -1239,13 +1259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="51" column="45" lean-forward="true" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_service/src/main/resources/mapping/RegistDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1461,8 +1474,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/bean/Admin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="70" column="30" lean-forward="true" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+        <state relative-caret-position="492">
+          <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_facade/src/main/java/com/hanpeng/bean/ResultRespone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-533">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudConnectWMS_service/src/main/resources/mapping/RegistDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
