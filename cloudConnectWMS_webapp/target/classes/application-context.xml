@@ -12,15 +12,15 @@
 	<import resource="consumer.xml"/>
 	<import resource="activemq_consumer.xml"/>
 
-	 <!--将多个配置文件读取到容器中，交给Spring管理 -->
-	<bean id="propertyConfigurer"
-		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-		<property name="locations">
-			<list>
-				<!-- 这里支持多种寻址方式：classpath和file -->
-				<value>classpath:database.properties</value>
-			</list>
-		</property>
-	</bean>
+	 <!--&lt;!&ndash;将多个配置文件读取到容器中，交给Spring管理 &ndash;&gt;-->
+	<!--<bean id="propertyConfigurer"-->
+		<!--class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">-->
+		<!--<property name="locations">-->
+			<!--<list>-->
+				<!--&lt;!&ndash; 这里支持多种寻址方式：classpath和file &ndash;&gt;-->
+				<!--<value>classpath:database.properties</value>-->
+			<!--</list>-->
+		<!--</property>-->
+	<!--</bean>-->
 
 </beans>

@@ -11,9 +11,9 @@ import org.apache.ibatis.annotations.Param;
 public interface LoginDao {
 	List<Admin> queryByNameAndPassword(@Param("username") String username, @Param("password") String password);
 
-	List<FaceRecognition> getBaseList();
+	List<Admin> getBaseList();
 
-	void insertFaceInfo(FaceRecognition faceRecognition);
+	void insertFaceInfo(Admin admin);
 
 	int queryCountByFaceInfo(@Param("username") String username);
 

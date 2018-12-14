@@ -11,13 +11,12 @@ import javax.servlet.http.HttpSession;
 import com.hanpeng.bean.Admin;
 import com.hanpeng.bean.FaceRecognition;
 import com.hanpeng.bean.ResultRespone;
+import com.hanpeng.service.FaceRecognitionService;
 import com.hanpeng.service.PushService;
 import com.hanpeng.service.LoginService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 
 @Controller
@@ -25,6 +24,9 @@ public class LoginController {
 
     @Resource
     private LoginService service;
+
+    @Resource
+    private FaceRecognitionService faceRecognitionService;
 
     @Resource
     private PushService adminPushService;
@@ -41,20 +43,12 @@ public class LoginController {
         try {
             PrintWriter out = response.getWriter();
             HttpSession session = request.getSession();
-            List<Admin> list = service.Login(username, password);
+            List<Admin> list = service.login(username, password);
             if (list.isEmpty()) {
                 out.write("{\"flag\":\"false\"}");
             } else {
                 out.write("{\"flag\":\"true\"}");
-//				String date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
-//				System.out.println(date);
-//				service.upDate(date, username);
-//				HttpSession hs = request.getSession();
                 session.setAttribute("username", username);
-//				System.out.println("username已传送");
-//				List<Map<String, ?>> userInfo = service.userInfo(username);
-//				hs.setAttribute("imgstr", userInfo.get(0).get("imgstr"));
-//				System.out.println("图片地址已传送");
             }
         } catch (Exception e) {
             model.addAttribute("info", "登录异常");
@@ -67,10 +61,10 @@ public class LoginController {
         PrintWriter writer = response.getWriter();
         HttpSession session = request.getSession();
         boolean flag = false;
-        List<FaceRecognition> list = service.getBaseList();
+        List<FaceRecognition> list = faceRecognitionService.getBaseList();
         for (FaceRecognition faceRecognition : list) {
             String image2 = faceRecognition.getFace_base64();
-            if (service.getResult(baseData, image2)) {
+            if (faceRecognitionService.getResult(baseData, image2)) {
                 flag = true;
                 session.setAttribute("username", faceRecognition.getUsername());
                 break;
@@ -87,12 +81,12 @@ public class LoginController {
         String username = (String) session.getAttribute("username");
         PrintWriter writer = response.getWriter();
         //检测该用户下的人脸信息数据是否超过5条
-        if (service.queryCountByFaceInfo(username,5)) {
+        if (faceRecognitionService.queryCountByFaceInfo(username,5)) {
             //进行人脸信息录入
-            if (service.getFaceResult(faceData)) {
+            if (faceRecognitionService.getFaceResult(faceData)) {
                 writer.write("{\"flag\":\"1\"}");
                 FaceRecognition faceRecognition = new FaceRecognition(username, faceData);
-                service.insertFaceInfo(faceRecognition);
+                faceRecognitionService.insertFaceInfo(faceRecognition);
             }else{
                 writer.write("{\"flag\":\"2\"}");
             }

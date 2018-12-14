@@ -9,17 +9,7 @@ import java.util.Map;
 
 public interface LoginService {
 
-    public List<Admin> Login(String username, String password);
-
-    public List<FaceRecognition> getBaseList();
-
-    public boolean getResult(String image1, String image2) throws IOException;
-
-    public boolean getFaceResult(String image) throws IOException;
-
-    public void insertFaceInfo(FaceRecognition faceRecognition);
-
-    public boolean queryCountByFaceInfo(String username, int n);
+    public List<Admin> login(String username, String password);
 
     public List<Map<String, ?>> userInfo(String userName);
 

@@ -19,7 +19,9 @@
     <!--用户登录部分-->
     <dubbo:service interface="com.hanpeng.service.LoginService" ref="loginService" protocol="dubbo"/>
     <bean id="loginService" class="com.hanpeng.serviceImpl.LoginServiceImpl"/>
-
+    <!--人脸识别-->
+    <dubbo:service interface="com.hanpeng.service.FaceRecognitionService" ref="faceRecognitionService" protocol="dubbo"/>
+    <bean id="faceRecognitionService" class="com.hanpeng.serviceImpl.FaceRecognitionServiceImpl"/>
     <!--用户注册-->
     <dubbo:service interface="com.hanpeng.service.RegistService" ref="registService" protocol="dubbo"/>
     <bean id="registService" class="com.hanpeng.serviceImpl.RegistServiceImpl"/>
@@ -27,5 +29,6 @@
     <!--消息推送-->
     <dubbo:service interface="com.hanpeng.service.PushService" ref="adminPushService" protocol="dubbo"/>
     <bean id="adminPushService" class="com.hanpeng.serviceImpl.AdminPushServiceImpl"/>
+
 
 </beans>
